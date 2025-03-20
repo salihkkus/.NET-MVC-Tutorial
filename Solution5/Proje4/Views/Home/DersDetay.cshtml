@@ -1,0 +1,16 @@
+@model Ders
+
+<div class="container text-center">
+    <div class="row">
+        <div class="col-3">
+            <div class="card" style="width: 18rem;">
+                <img src="~/img/@Model.DersResmi" height="150px" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">@Model.Adi</h5>
+                    <p class="card-text">@Model.DersAciklama</p>
+                    <a asp-controller="Home" asp-action="DersListesi" class="btn btn-success">Ders Listesi</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

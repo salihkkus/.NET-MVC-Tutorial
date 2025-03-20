@@ -1,0 +1,10 @@
+@model Ders
+
+    <div class="card" style="width: 18rem;">
+  <img src="~/img/@Model.DersResim" height="150px" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">@Model.DersAdi</h5>
+    <p class="card-text">@Model.DersAciklama</p>
+    <a class="btn btn-success" asp-controller="Home" asp-action="dersler">Listeye Dön</a>
+  </div>
+</div>

@@ -1,0 +1,35 @@
+
+@model List<Kitap>
+
+  
+            @foreach (Kitap item in Model)
+            {
+                <p>
+                    @item.Id
+                </p>
+                <p>
+                    @item.Adi
+                </p>
+                <p>
+                    <img src="~/img/@item.KitapResmi" alt="" width="100px">
+                </p>
+            }
+
+            @foreach (Kitap item in Model)
+            {
+                <p>
+                    @item.Id
+                </p>
+                <p>
+                    @item.Adi
+                </p>
+                <p>
+                    <img src="~/Dosyalar/img/@item.KitapResmi" alt="" width="100px">
+                </p>
+            }
+
+            
+
+     
+  
+

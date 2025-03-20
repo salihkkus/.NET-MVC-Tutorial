@@ -1,0 +1,47 @@
+@{
+
+    Layout = null;
+}
+@model List<Ogrenci>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav></nav>
+    </header>
+    <div class="container">
+        <main>
+            <p>
+                @Model[0].Id
+            </p>
+            <p>
+                @Model[0].Adi
+            </p>
+
+            @foreach (var item in Model)
+            {
+                <p>
+                    @item.Id
+                </p>
+                <p>
+                    @item.Adi
+                </p>
+            }
+
+
+        </main>
+    </div>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

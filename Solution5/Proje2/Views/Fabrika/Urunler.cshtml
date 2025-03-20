@@ -1,0 +1,37 @@
+@model List<Urun>
+
+@section Bolum
+{
+    <script>
+        function myFunction() {
+  alert("Hayırlı ifarlar");
+}
+    </script>
+}
+
+        
+    @foreach (Urun item in Model)
+    {
+        <p>
+            @item.Id
+        </p>
+        <p>
+            @item.Adi
+        </p>
+        <p>
+         <img src="~/img/@item.ResimYolu" alt="" width="100px">
+        </p>
+    }
+ @foreach (Urun item in Model)
+    {
+        <p>
+            @item.Id
+        </p>
+        <p>
+            @item.Adi
+        </p>
+        <p>
+         <img src="~/Dosyalar/img/@item.ResimYolu" alt="" width="100px">
+        </p>
+    }
+    
