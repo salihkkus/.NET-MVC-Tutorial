@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dersler\\Ders-NetCoreWeb\\Solution5\\Proje5\\Proje5.csproj": {}
+    "C:\\Users\\Salih\\OneDrive\\Belgeler\\GitHub\\.NET-MVC-Tutorial\\Solution5\\Proje5\\Proje5.csproj": {}
   },
   "projects": {
-    "D:\\Dersler\\Ders-NetCoreWeb\\Solution5\\Proje5\\Proje5.csproj": {
+    "C:\\Users\\Salih\\OneDrive\\Belgeler\\GitHub\\.NET-MVC-Tutorial\\Solution5\\Proje5\\Proje5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dersler\\Ders-NetCoreWeb\\Solution5\\Proje5\\Proje5.csproj",
+        "projectUniqueName": "C:\\Users\\Salih\\OneDrive\\Belgeler\\GitHub\\.NET-MVC-Tutorial\\Solution5\\Proje5\\Proje5.csproj",
         "projectName": "Proje5",
-        "projectPath": "D:\\Dersler\\Ders-NetCoreWeb\\Solution5\\Proje5\\Proje5.csproj",
-        "packagesPath": "C:\\Users\\SerdarKR\\.nuget\\packages\\",
-        "outputPath": "D:\\Dersler\\Ders-NetCoreWeb\\Solution5\\Proje5\\obj\\",
+        "projectPath": "C:\\Users\\Salih\\OneDrive\\Belgeler\\GitHub\\.NET-MVC-Tutorial\\Solution5\\Proje5\\Proje5.csproj",
+        "packagesPath": "C:\\Users\\Salih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Salih\\OneDrive\\Belgeler\\GitHub\\.NET-MVC-Tutorial\\Solution5\\Proje5\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\SerdarKR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Salih\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.25057.12/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

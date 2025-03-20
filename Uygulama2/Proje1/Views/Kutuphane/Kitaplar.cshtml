@@ -1,0 +1,24 @@
+
+@using Proje1.Models
+@model List<Kitap>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitaplar</title>
+</head>
+<body>
+    @foreach(Kitap item in Model){
+        <p>
+            @item.Adi
+        </p>
+        <p>
+            @item.Id
+        </p>
+        <p>
+            <img src="~/img/@item.KitapResmi" alt="@item.Adi" />
+        </p>
+    }
+</body>
+</html>
