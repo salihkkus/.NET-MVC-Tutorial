@@ -1,0 +1,12 @@
+@model List<Ders>
+
+<div class="container text-center">
+    <div class="row">
+        @foreach (Ders item in Model)
+        {
+            <div class="col-md-4 mb-3">
+                @await Html.PartialAsync("_DersCard", item)
+            </div>
+        }
+    </div>
+</div>
