@@ -1,0 +1,8 @@
+C:\Users\Salih\OneDrive\Belgeler\GitHub\.NET-MVC-Tutorial\obj\Debug\net9.0\.NET-MVC-Tutorial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Salih\OneDrive\Belgeler\GitHub\.NET-MVC-Tutorial\obj\Debug\net9.0\.NET-MVC-Tutorial.AssemblyInfoInputs.cache
+C:\Users\Salih\OneDrive\Belgeler\GitHub\.NET-MVC-Tutorial\obj\Debug\net9.0\.NET-MVC-Tutorial.AssemblyInfo.cs
+C:\Users\Salih\OneDrive\Belgeler\GitHub\.NET-MVC-Tutorial\obj\Debug\net9.0\.NET-MVC-Tutorial.csproj.CoreCompileInputs.cache
+C:\Users\Salih\OneDrive\Belgeler\GitHub\.NET-MVC-Tutorial\obj\Debug\net9.0\.NET-MVC-Tutorial.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Salih\OneDrive\Belgeler\GitHub\.NET-MVC-Tutorial\obj\Debug\net9.0\.NET-MVC-Tutorial.RazorAssemblyInfo.cache
+C:\Users\Salih\OneDrive\Belgeler\GitHub\.NET-MVC-Tutorial\obj\Debug\net9.0\.NET-MVC-Tutorial.RazorAssemblyInfo.cs
+C:\Users\Salih\OneDrive\Belgeler\GitHub\.NET-MVC-Tutorial\obj\Debug\net9.0\.NET-MVC-Tutorial.sourcelink.json

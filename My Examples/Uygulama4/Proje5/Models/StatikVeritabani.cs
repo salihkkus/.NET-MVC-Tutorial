@@ -45,7 +45,7 @@ namespace Proje5.Models
         }
 
         public static List<Ders> DersleriGetir(){
-            return _dersler = new List<Ders>();
+            return _dersler;
         }
 
         public static Ders IdyeGoreGetir(int id){
