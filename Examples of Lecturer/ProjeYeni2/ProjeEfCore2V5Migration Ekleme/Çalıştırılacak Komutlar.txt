@@ -1,0 +1,14 @@
+Bu Proje entity lerdeki değişiklikler için birer zaman damgalı konfig tutan dosyaların 
+otomatik oluşturulup veritabanına yansıtılması işidir.
+
+dotnet list  package 
+dotnet tool list -g
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+dotnet ef migrations add InitialCreate(burada InitialCreate yerine istediğiniz ismi verebilirsiniz)
+dotnet ef database update
+Komut	Açıklama
+dotnet ef migrations add MigrationAdı	Yeni migration oluşturur
+dotnet ef database update	Migration'ları veritabanına uygular
+dotnet ef migrations remove	Son migration'ı geri alır
+dotnet ef database drop	Veritabanını siler

@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Yetkilendirme Tablosu";
+}
+
+
+
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<h2>Yetkilendirme Tablosu</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Action</th>
+            <th>Link</th>
+            <th>Erişim Türü</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Herkese Açık</td>
+            <td><a asp-action="HerkeseAcik" asp-controller="Erisim" >Git</a></td>
+            <td>Anonim erişime açık</td>
+        </tr>
+        <tr>
+            <td>Admin</td>
+            <td><a asp-controller="Erisim" asp-action="AdimAction">Git</a></td>
+            <td>Sadece <strong>Admin</strong> rolü</td>
+        </tr>
+        <tr>
+            <td>User</td>
+            <td><a asp-controller="Erisim" asp-action="UserAction">Git</a></td>
+            <td>Sadece <strong>User</strong> rolü</td>
+        </tr>
+        <tr>
+            <td>Hibrit</td>
+            <td><a asp-controller="Erisim" asp-action="HibritAction">Git</a></td>
+            <td><strong>Admin</strong> veya <strong>User</strong></td>
+        </tr>
+        <tr>
+            <td>Giriş Yapanlar</td>
+            <td><a asp-controller="Erisim" asp-action="GirisYapanlar">Git</a></td>
+            <td>Kimliği doğrulanmış herkes</td>
+        </tr>
+
+         <tr>
+            <td>Giriş Yapanlar</td>
+            <td><a asp-controller="AcikKapali" asp-action="Index">Git</a></td>
+            <td>Controller Kapalı Action Açık</td>
+        </tr>
+          <tr>
+            <td>Giriş Yapanlar</td>
+            <td><a asp-controller="AcikKapali" asp-action="Kapali">Git</a></td>
+            <td>Controller Kapalı Action Tanımsız</td>
+        </tr>
+    </tbody>
+</table>

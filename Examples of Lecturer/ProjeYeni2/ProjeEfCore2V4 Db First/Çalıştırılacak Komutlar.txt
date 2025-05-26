@@ -1,0 +1,22 @@
+bu proje mevcut bir veritabanı kullanılarak entity lerin ve contextin otomatik oluşturulması 
+ve sonrasında projede nasıl kullanıldığını anlatır.
+
+a.dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+b.dotnet add package Microsoft.EntityFrameworkCore.Tools
+c.dotnet tool install --global dotnet-ef
+d.dotnet ef dbcontext scaffold "Server=(localdb)\mssqllocaldb;Database=Veritabani;Trusted_Connection=True;"
+ Microsoft.EntityFrameworkCore.SqlServer -o Models
+e.daha sonra veritabanıcontext te aşağıdaki constructer ı ekle
+  public VeritabaniContext(DbContextOptions<VeritabaniContext> options)
+        : base(options)
+    {
+    }
+f. homecontroller da yada başka controller larda aşağıdaki gibi kullanabilirsin
+
+private readonly VeritabaniContext _context;
+    public HomeController(VeritabaniContext context)
+    {
+        _context = context;
+        
+    }
+g. yada privacy action ındaki gibi yeni instance oluşturarak kullanabilirsin

@@ -1,0 +1,2 @@
+Bu proje context sınfında connection string olan ve çalıştırdığınızda veritabanı oluşturan bir projedir.
+home controllerda context new lenir ve context üzerinden veriler manipüle edilir

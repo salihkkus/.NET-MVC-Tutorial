@@ -1,0 +1,20 @@
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+dotnet tool install dotnet-ef -g
+appsetting.Development da connectionstring tanımla
+
+program cs de
+var baglanti= builder.Configuration.GetConnectionString("Baglanti");
+
+builder.Services.AddDbContext<DatabaseContext>(Options=>Options.UseSqlServer(baglanti));    
+
+sonra
+
+migraiton ekle
+
+ve veritabanını oluştur.
+
+hash için helper sınıfı oluştur
+
+
+

@@ -1,6 +1,15 @@
+using Microsoft.EntityFrameworkCore;
+using Proje5.Models;
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+
+
+var baglanti = "Server=.;Database=SchoolDB;Trusted_Connection=True;MultipleActiveResultSets=true;"
+
+builder.Services.AddDbContext<SchoolContext>
+(options => options.UseSqlServer(baglanti));
+
+    // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();

@@ -1,0 +1,17 @@
+Bu projede baglantı cümlesi program cs de ve context de bir servis olarak eklenmiş durumdadır.
+bu bağlamda 
+ private readonly SchoolContext _context;
+    public HomeController(SchoolContext context)
+    {
+        _context= context;
+        
+    }
+kodu size projede nereden SchoolContext isterseniz program cs deki container dan size bir tane verecektir.
+
+buda program cs deki servis eklenme kodu
+// ➤ Bağlantı cümlesini buraya yaz (hardcoded)
+var connectionString = "Server=(localdb)\\mssqllocaldb;Database=MyDatabase;Trusted_Connection=True;";
+
+// ➤ DbContext'i servise ekle
+builder.Services.AddDbContext<SchoolContext>(options =>
+    options.UseSqlServer(connectionString));

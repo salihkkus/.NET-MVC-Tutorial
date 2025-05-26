@@ -1,0 +1,17 @@
+Bu projede baglantı cümlesi appsetting.jsondan çekilerek kullanılmakta
+
+
+// ✅ Connection string'i appsettings.json'dan al
+var connectionString = builder.Configuration.GetConnectionString("Baglanti");
+
+// ✅ DbContext'i servise ekle
+builder.Services.AddDbContext<SchoolContext>(options =>
+    options.UseSqlServer(connectionString));
+
+bu komutlar program cs de context için container a ekleme yapmaktadır.
+
+buda appsetting.json dosyasındaki baglantı nesnesi
+ "ConnectionStrings": 
+  {
+    "Baglanti": "Server=(localdb)\\mssqllocaldb;Database=Veritabani;Trusted_Connection=True;"
+  }

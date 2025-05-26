@@ -193,3 +193,4 @@ C:\Users\Salih\OneDrive\Belgeler\GitHub\.NET-MVC-Tutorial\Examples of Lecturer\S
 C:\Users\Salih\OneDrive\Belgeler\GitHub\.NET-MVC-Tutorial\Examples of Lecturer\Solution5\Proje5\obj\Debug\net9.0\Proje5.pdb
 C:\Users\Salih\OneDrive\Belgeler\GitHub\.NET-MVC-Tutorial\Examples of Lecturer\Solution5\Proje5\obj\Debug\net9.0\Proje5.genruntimeconfig.cache
 C:\Users\Salih\OneDrive\Belgeler\GitHub\.NET-MVC-Tutorial\Examples of Lecturer\Solution5\Proje5\obj\Debug\net9.0\ref\Proje5.dll
+C:\Users\Salih\OneDrive\Belgeler\GitHub\.NET-MVC-Tutorial\Examples of Lecturer\Solution5\Proje5\obj\Debug\net9.0\Proje5.csproj.AssemblyReference.cache
